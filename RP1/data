@@ -1,2 +1,6 @@
- Download the eccentricity distribution of exoplanets from the exoplanet catalog http://exoplanet.eu/catalog/. Look for the column titled e, which denotes eccentricity. Draw the histogram of this distribution. Then redraw the same histogram after Gaussianization of  the distribution using Box-transformation either using scipy.stats.boxcox or from first principles using the equations  in arXiv:1508.00931. Note that exoplanets without eccentricity data can be ignored.
+Download the eccentricity distribution of exoplanets from the exoplanet catalog http://exoplanet.eu/catalog/. 
+Look for the column titled e, which denotes eccentricity. Draw the histogram of this distribution. 
+Then redraw the same histogram after Gaussianization of  the distribution using Box-transformation either using 
+scipy.stats.boxcox or from first principles using the equations  in arXiv:1508.00931. 
+Note that exoplanets without eccentricity data can be ignored.
 After Box-cox transformation you should get a plot similar to the right side of figure 1 in arXiv:1508.00931.
